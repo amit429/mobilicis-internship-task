@@ -15,6 +15,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(require('./Routes/fetch'));
 
 app.listen(port, () => console.log(`Backend started on port ${port}!`));
 
