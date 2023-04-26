@@ -26,7 +26,7 @@ export default function TableFour() {
     const posts = data.slice(offset, offset + pageSize);
 
     React.useEffect(() => {
-        fetch("http://localhost:5000/users/car")
+        fetch("https://mobilicis.tushar725mittal.repl.co/users/car")
           .then((response) => response.json())
           .then((json) => {
             setData(json);

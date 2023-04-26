@@ -2,7 +2,7 @@
   "name": "mobilicis-internship-task",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "https://mobilicis.tushar725mittal.repl.co/",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.18",
     "@chakra-ui/react": "^2.5.5",

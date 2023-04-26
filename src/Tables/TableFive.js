@@ -26,7 +26,7 @@ export default function TableFive() {
     const posts = data.slice(offset, offset + pageSize);
 
     React.useEffect(() => {
-        fetch("http://localhost:5000/users/city")
+        fetch("https://mobilicis.tushar725mittal.repl.co/users/city")
           .then((response) => response.json())
           .then((json) => {
             setData(json);

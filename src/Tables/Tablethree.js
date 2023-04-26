@@ -25,7 +25,7 @@ export default function Tablethree() {
   const posts = data.slice(offset, offset + pageSize);
 
   React.useEffect(() => {
-    fetch("http://localhost:5000/users/phone-price")
+    fetch("https://mobilicis.tushar725mittal.repl.co/users/phone-price")
       .then((response) => response.json())
       .then((json) => {
         setData(json);

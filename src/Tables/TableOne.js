@@ -25,7 +25,7 @@ export default function TableOne() {
   const posts = data.slice(offset, offset + pageSize);
 
   React.useEffect(() => {
-    fetch("http://localhost:5000/users/income")
+    fetch("https://mobilicis.tushar725mittal.repl.co/users/income")
       .then((response) => response.json())
       .then((json) => {
         setData(json);
