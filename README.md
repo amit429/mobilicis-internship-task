@@ -49,7 +49,23 @@ The frontend files are located in the src folder in the main directory. The src 
 App.js in the frontend side is used to start the frontend and initialize all the connections.
 The frontend is completely hosted in netlify and the link to the frontend is [https://mobilicis-internship-task.netlify.app/](https://mobilicis-internship-task.netlify.app/)<br/>
 
-# Getting Started with Create React App
+The Data is dynamically getting fetched by the server deployed on repl.it and the data is displayed on the frontend. The frontend is made using react js and chakra ui. The frontend is made responsive using chakra ui. The frontend is made using react router dom to navigate between the pages. The frontend is made using react hooks and functional components.
+
+The use of pagination is done to for the content display of only 10 objects in the table. 
+
+## Deployment
+Backend API : https://mobilicis.tushar725mittal.repl.co/
+Frontend URL : https://mobilicis-internship-task.netlify.app/
+To get the data from the backend api , already above mentioned routes are created.
+
+# How to run the project
+
+## Backend
+1. Clone the repository
+2. Open the Server folder in the terminal
+3. Run the command npm install to install all the dependencies
+4. Run the command npm start to start the backend
+5. The backend will start on port 5000
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
