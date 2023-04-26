@@ -35,7 +35,7 @@ The routes folder contains the fetch.js file which contains the routes for the A
 These routes created are called by the frontend to fetch the data from the database.
 
 ### `Backend Hosting`
-The backend is hosted on repl.it and the link to the backend is [https://mobilicis.tushar725mittal.repl.co/](https://mobilicis.tushar725mittal.repl.co/)
+The backend is hosted on repl.it and the link to the backend is [https://mobilicis.tushar725mittal.repl.co/](https://mobilicis.tushar725mittal.repl.co/)<br/>
 All the routes can be accessed by adding the route name after the link.
 API call can be easily done by the frontend by using the fetch function and passing the link to the fetch function.
 
