@@ -39,6 +39,16 @@ The backend is hosted on repl.it and the link to the backend is [https://mobilic
 All the routes can be accessed by adding the route name after the link.
 API call can be easily done by the frontend by using the fetch function and passing the link to the fetch function.
 
+### `Frontend`
+The frontend files are located in the src folder in the main directory. The src folder contains the following files:
+1. App.js
+2. index.js
+3. The components folder contains all the components used in the frontend
+4. The pages folder contains all the pages used in the frontend
+
+App.js in the frontend side is used to start the frontend and initialize all the connections.
+The frontend is completely hosted in netlify and the link to the frontend is [https://mobilicis-internship-task.netlify.app/](https://mobilicis-internship-task.netlify.app/)<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
