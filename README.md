@@ -1,3 +1,12 @@
+# Mobilicis Internship Task
+This is a node js and react js application using Express Framework and MongoDB Database. In this internship task i had to create an application to fetch the required information from the 1000 objects sample data given in the json format. The sample data is loaded on Mongodb atlas and fetched directly from the database. 
+The task was to create routes in the backend and create APIs in node js to fetch the following data:
+1. Users which have income lower than $5 USD and have a car of brand “BMW” or “Mercedes”.
+2. Male Users which have phone price greater than 10,000.
+3. Users whose last name starts with “M” and has a quote character length greater than 15 and email includes his/her last name.
+4. Users which have a car of brand “BMW”, “Mercedes” or “Audi” and whose email does not include any digit.
+5. Show the data of top 10 cities which have the highest number of users and their average income.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
