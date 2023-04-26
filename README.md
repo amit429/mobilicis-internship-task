@@ -54,8 +54,8 @@ The Data is dynamically getting fetched by the server deployed on repl.it and th
 The use of pagination is done to for the content display of only 10 objects in the table. 
 
 ## Deployment
-Backend API : https://mobilicis.tushar725mittal.repl.co/
-Frontend URL : https://mobilicis-internship-task.netlify.app/
+Backend API : https://mobilicis.tushar725mittal.repl.co/<br/>
+Frontend URL : https://mobilicis-internship-task.netlify.app/<br/>
 To get the data from the backend api , already above mentioned routes are created.
 
 # How to run the project
