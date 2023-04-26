@@ -7,6 +7,38 @@ The task was to create routes in the backend and create APIs in node js to fetch
 4. Users which have a car of brand “BMW”, “Mercedes” or “Audi” and whose email does not include any digit.
 5. Show the data of top 10 cities which have the highest number of users and their average income.
 
+## Packages Used
+1. Express
+2. Mongoose
+3. Nodemon
+4. Cors
+5. Axios
+6. React Router Dom
+7. Chakra Ui
+
+## Backend
+The backend files are located in the Server folder in the main directory. The server folder contains the following files:
+1. app.js
+2. The .env file contains the secret url to the database for connection
+3. The routes folder contains the routes for the APIs
+4. The models folder contains the schema for the data
+
+App.js in the Server side is used to start the backend and initialize all the connections.
+### Routes
+The routes folder contains the fetch.js file which contains the routes for the APIs. In the fetch.js all the backend routes are made with the help of express router. The backend routes use mongodb aggregate functions to fetch the required data from the database. The aggregate functions are used to filter the data and then the data is sent to the frontend in the form of json. The routes are as follows:
+1. /users (GET) , This route fetches all the users from the database.
+2. /users/income (GET) , This route fetches all the users which have income lower than $5 USD and have a car of brand “BMW” or “Mercedes”.
+3. /users/phone-price (GET) , This route is used to fetch the male users which have phone price greater than 10,000.
+4. /users/lastname (GET) , This route is used to fetch the users whose last name starts with “M” and has a quote character length greater than 15 and email includes his/her last name.
+5. /users/car (GET) , This route is used to fetch the users which have a car of brand “BMW”, “Mercedes” or “Audi” and whose email does not include any digit.
+
+These routes created are called by the frontend to fetch the data from the database.
+
+### Backend Hosting
+The backend is hosted on repl.it and the link to the backend is [https://mobilicis.tushar725mittal.repl.co/](https://mobilicis.tushar725mittal.repl.co/)
+All the routes can be accessed by adding the route name after the link.
+API call can be easily done by the frontend by using the fetch function and passing the link to the fetch function.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
