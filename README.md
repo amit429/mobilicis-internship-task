@@ -1,4 +1,4 @@
-# Mobilicis Internship Task
+# Simple MongoDB Fetch operations with pagination
 This is a node js and react js application using Express Framework and MongoDB Database. In this internship task i had to create an application to fetch the required information from the 1000 objects sample data given in the json format. The sample data is loaded on Mongodb atlas and fetched directly from the database. 
 The task was to create routes in the backend and create APIs in node js to fetch the following data:
 1. Users which have income lower than $5 USD and have a car of brand “BMW” or “Mercedes”.
